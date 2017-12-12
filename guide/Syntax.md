@@ -20,22 +20,22 @@ if (condition) {
 }
 ```
 ##### Examples
-This is the recommended form. Note that these use the Storm [`String` comparisons](#string-comparisons), which you may not be familiar with, and the simplified printing, which you also may not be familiar with.
+This is the recommended form. Note that these use the Storm [comparisons](#comparisons), which you may not be familiar with, and the simplified [printing](#printing), which you also may not be familiar with.
 ```
-if (password == "myPassword") then {
+if (password = "myPassword") then {
     println("You logged in!");
 }
 ```
 
 These forms work, but are discouraged.
 ```
-if (password == "myPassword") then
+if (password = "myPassword") then
 {
     println("You logged in!");
 }
 ```
 ```
-if (password == "myPassword") then
+if (password = "myPassword") then
 { println("You logged in!"); }
 ```
 
@@ -55,7 +55,7 @@ If-else statements are the most common variation of `if` statements. There is no
 ##### Java Counterpart
 ##### Examples
 #### If-elseif-else
-If-elseif-else statements are a common type of `if`
+If-elseif-else statements are a common type of `if` statement, but if-elseif-else statements with more than one `elseif` should be replaced by [switch](#switch-statements) statements.
 ##### Syntax
 ##### Java Counterpart
 ##### Examples
@@ -77,4 +77,8 @@ If-elseif-else statements are a common type of `if`
 ## Input
 ## Output
 ## Comparisons
+Storm uses a single equals sign (`=`) to compare values. **USE THE SINGLE EQUALS SIGN FOR COMPARISONS.** This is not like most other programming languages, which use two equals signs (`==`) to compare. *Storm will accept `==` for comparisons, but will not accept one equals sign for [assignments](#assignments).*
 ### String Comparisons
+## Assignments
+Storm uses the colon (`:`) to show assignments. **THE SINGLE EQUALS SIGN IS FOR [COMPARISONS](#comparisons)**
+## Operators
