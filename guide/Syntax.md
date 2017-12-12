@@ -5,7 +5,7 @@ Storm has a very readible syntax, made more so by the fact that the word `the` c
 ## Control Flow
 
 ### If statements
-If statements are an integral part of any programming language, letting your code *appear* to make decisions. They are also the building block of any if-type expressions. Storm requires the `then` keyword **and** that you use brackets `{}`. See the [Comparisons](#Comparisons) section for details on conditions.
+If statements are an integral part of any programming language, letting your code *appear* to make decisions. They are also the building block of any if-type expressions. Storm requires the `then` keyword **and** that you use brackets `{}`. See the [Comparisons](#comparisons) section for details on conditions.
 #### If
 ##### Syntax
 ```
