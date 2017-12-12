@@ -41,7 +41,7 @@ if (password = "myPassword") then
 
 Note that if your statements are one line, you can use the recommended form or you can use the one line form below.
 ```
-if (password == "myPassword") then { println("You logged in!"); }
+if (password = "myPassword") then { println("You logged in!"); }
 ```
 This form should only be used with a single statement to be executed if the condition is true.
 #### If-elseif
