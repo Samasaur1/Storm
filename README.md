@@ -16,6 +16,6 @@ A new, easy-to-read, easy-to-write programming language
 
 * Write IDE (using JavaFX). This will be easy, as it will be a Storm-only IDE, but it'll take some time and we don't have much
 
-## Authors
+## References
 
-* @Samasaur1 - Lead coder and designer
+See the [guide](guide/README.md) for information on Storm
