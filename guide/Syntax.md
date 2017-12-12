@@ -20,7 +20,7 @@ if (condition) {
 }
 ```
 ##### Examples
-This is the recommended form. Note that these use the Storm `String` comparisons, which you may not be familiar with, and the simplified printing, which you also may not be familiar with.
+This is the recommended form. Note that these use the Storm [`String` comparisons](#string comparisons), which you may not be familiar with, and the simplified printing, which you also may not be familiar with.
 ```
 if (password == "myPassword") then {
     println("You logged in!");
@@ -45,7 +45,7 @@ if (password == "myPassword") then { println("You logged in!"); }
 ```
 This form should only be used with a single statement to be executed if the condition is true.
 #### If-elseif
-If-elseif statements are not very common, but there are use cases where they are obviously the best possible choice. Multiple chained `if-elseif-elseif`s can (and generally should) be replaced by switch statements.
+If-elseif statements are not very common, but there are use cases where they are obviously the best possible choice. Multiple chained `if-elseif-elseif`s can (and generally should) be replaced by [switch](#switch statements) statements.
 ##### Syntax
 ##### Java Counterpart
 ##### Examples
@@ -77,3 +77,4 @@ If-elseif-else statements are a common type of `if`
 ## Input
 ## Output
 ## Comparisons
+### String Comparisons
