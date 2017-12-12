@@ -5,8 +5,8 @@ This page is a collection of example code written in Storm, and then translated 
 There is no difference between Java and Storm in this case.
 #### Storm
 ```
-public class Main {
-    public static void main(String[] args) {
+public class Main: {
+    public static main(String[] args): {
         println("Hello, World!");
     }
 }
