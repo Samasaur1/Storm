@@ -84,6 +84,27 @@ for (Type » array) {
 ## Comparisons
 Storm uses a single equals sign (`=`) to compare values. **USE THE SINGLE EQUALS SIGN FOR COMPARISONS.** This is not like most other programming languages, which use two equals signs (`==`) to compare. *Storm will accept `==` for comparisons, but will not accept one equals sign for [assignments](#assignments).*
 ### String Comparisons
-## Assignments
+## Assignments / Variable Declaration
 Storm uses the colon (`:`) to show assignments. **THE SINGLE EQUALS SIGN IS FOR [COMPARISONS](#comparisons)**
 ## Operators
+## Functions
+Functions are key components to programs with many different repeating actions. You will often see declarations and callings of functions throughout code.
+### Declaring a function
+In java, to declare a function, you would write it like this.
+```
+public void someFunction() {
+    //Statements here
+}
+```
+You will see that Storms functions are very similar to java's.
+```
+public someFuction(): {
+    //Statements here
+}
+```
+They can range from the one above to the one below.
+```
+private static abstract otherFunction(int parameter1, String parameter2) -> int: {
+    //Statements here
+}
+```
