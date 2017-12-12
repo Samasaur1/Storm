@@ -71,6 +71,11 @@ If-elseif-else statements are a common type of `if` statement, but if-elseif-els
 ##### Java Counterpart
 ##### Examples
 #### For-Each Loops
+```
+for (Type » array) {
+    //Statements here
+}
+```
 ##### Syntax
 ##### Java Counterpart
 ##### Examples
