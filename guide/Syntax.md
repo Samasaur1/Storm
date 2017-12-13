@@ -88,23 +88,31 @@ Storm uses a single equals sign (`=`) to compare values. **USE THE SINGLE EQUALS
 Storm uses the colon (`:`) to show assignments. **THE SINGLE EQUALS SIGN IS FOR [COMPARISONS](#comparisons)**
 ## Operators
 ## Functions
-Functions are key components to programs with many different repeating actions. You will often see declarations and callings of functions throughout code.
+Functions are key components to programs with many different repeating actions. You will often see declarations and calls of functions throughout code.
 ### Declaring a function
-In java, to declare a function, you would write it like this.
+In Java, to declare a basic function, you would write it like this.
 ```
 public void someFunction() {
     //Statements here
 }
 ```
-You will see that Storms functions are very similar to java's.
+You will see that functions in Strom are very similar to Java.
 ```
 public someFuction(): {
     //Statements here
 }
 ```
-They can range from the one above to the one below.
+
+Functions can range in complexity from the examples above to the example below.
 ```
 private static abstract otherFunction(int parameter1, String parameter2) -> int: {
     //Statements here
 }
 ```
+Functions follow this form:
+```
+[visibility] {modifiers} name(Type_of_parameter name_of_parameter, Type name) -> ReturnType: {
+    //code
+}
+```
+`[visibility]` is required, `{modifiers}` are optional, and the parameters are optional. If a function returns anything, you must have a return type, otherwise omit the `-> ReturnType`. You can also say that the `ReturnType` is void if there is no returned value.
